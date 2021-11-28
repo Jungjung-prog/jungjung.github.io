@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather {
+  width: 100vw;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+#clock {
+  font-size: 200px;
+}
+
+#greeting {
+  font-size: 40px;
+}
+
+#login-form {
+  color: white;
+}
+
+#login-form input,
+#todo-form input {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#login-form input {
+  font-size: 70px;
+  border-bottom: 3px solid;
+  align-items: center;
+}
+
+#todo-form input {
+  font-size: 30px;
+  border-bottom: 2px solid;
+}
+
+#todo-list button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#quote {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
